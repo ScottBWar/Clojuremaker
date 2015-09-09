@@ -3,6 +3,7 @@
   (use noir.core
        hiccup.core
        hiccup.page-helpers)
+  (:use [hiccup.core :only [html]])
   (:use somnium.congomongo)
   (:use [somnium.congomongo.config :only [*mongo-config*]]))
 
